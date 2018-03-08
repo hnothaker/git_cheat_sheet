@@ -10,3 +10,22 @@ h2{
   font-weight: bold;
   text-align: left;
 }
+
+h3{
+  font-family: 'Roboto Mono', monospace;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+ .blue_box{
+   width: 40%;
+   display: inline-block;
+   background-color: blue;
+ }
+
+ .red_box{
+   width: 40%;
+   display: inline-block;
+   background-color: red;
+ }
