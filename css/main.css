@@ -20,12 +20,16 @@ h3{
 p{
   font-family: 'Roboto', sans-serif;
 }
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
  .blue_box{
    width: 40%;
    display: inline-block;
    vertical-align: top;
-   background-color: blue;
-   border-color: black;
+   border-color: blue;
    border-style: solid;
    border-width: 3px;
  }
@@ -34,10 +38,21 @@ p{
    width: 40%;
    display: inline-block;
    vertical-align: top;
-   background-color: red;
-   border-color: black;
+   border-color: red;
    border-style: solid;
    border-width: 3px;
+ }
+
+ .red_title_box {
+   background-color: red;
+ }
+
+ .blue_title_box{
+   background-color: blue;
+ }
+
+ h2 {
+   margin: 0;
  }
 
 .blue_box h3{
@@ -46,4 +61,38 @@ p{
 
 .upper_box div{
   background-color: white;
+}
+
+.upper_box{
+  padding-left: 5px;
+}
+
+.lower_box {
+  padding-left: 5px;
+  border-top: solid;
+  border-color: blue;
+}
+.remote_box{
+  padding-left: 5px;
+}
+.remote_box h3{
+  color: red;
+}
+@media screen and (max-width: 800px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .blue_box {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+
+  .red_box {
+    width: 90%;
+  }
 }
